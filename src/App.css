@@ -1,12 +1,12 @@
-.App .navbar {
+.App .navbar, .App .main {
   width: 100%;
   padding-left: 40px;
   padding-right: 40px; }
   @media screen and (max-width: 768px) {
-    .App .navbar {
+    .App .navbar, .App .main {
       padding-left: 25px;
       padding-right: 25px; } }
   @media screen and (max-width: 568px) {
-    .App .navbar {
+    .App .navbar, .App .main {
       padding-left: 15px;
       padding-right: 15px; } }

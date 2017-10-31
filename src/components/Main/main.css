@@ -1,2 +1,48 @@
-.main {
-  padding: 0 40px; }
+@media screen and (min-width: 992px) {
+  .main {
+    margin-top: 35px; } }
+
+@media screen and (max-width: 992px) {
+  .main {
+    margin-top: 15px; } }
+
+.device-tables {
+  width: 100%; }
+  @media screen and (min-width: 1200px) {
+    .device-tables {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; }
+      .device-tables .text-table {
+        width: 100%; }
+        .device-tables .text-table:nth-child(2) {
+          margin: 0 40px; } }
+  @media screen and (max-width: 1200px) {
+    .device-tables {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start; }
+      .device-tables .text-table {
+        width: 100%;
+        margin-bottom: 35px; } }
+
+@media screen and (max-width: 991px) {
+  .table-responsive {
+    display: table; } }
+
+.table th, .table td {
+  padding: 0 15px 0 15px;
+  vertical-align: middle;
+  height: 30px;
+  color: #231f20;
+  font-size: 12px;
+  text-align: left;
+  font-weight: normal; }
+
+.table thead th {
+  vertical-align: middle;
+  border-bottom: none;
+  background-color: rgba(67, 170, 220, 0.1); }
+
+.thead-light tr th {
+  border-top: none; }
