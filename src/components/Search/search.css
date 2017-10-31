@@ -1,24 +1,31 @@
 .search {
   height: 60px;
   background-color: #2296d1;
-  z-index: 2; }
+  z-index: 2;
+  width: 100%; }
 
 .navbar-brand {
   margin-right: 30px; }
 
 a:not([href]):not([tabindex]) {
-  font-size: 24px;
   color: white; }
 
 .search.navbar {
-  justify-content: flex-start; }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.searchbar {
+  display: inherit; }
+
+.form-inline .mr-sm-2 {
+  margin-right: 0.2rem !important; }
 
 .form-inline .form-control {
-  font-size: 14.2px;
   height: 40px;
-  width: 309px;
   color: #8b8b8b;
-  border-radius: 10px; }
+  border-radius: 10px;
+  background-color: #e1e1e1; }
 
 .form-inline .btn-outline-success {
   background-color: #247fae;
@@ -29,10 +36,42 @@ a:not([href]):not([tabindex]) {
   border-radius: 10px;
   cursor: pointer; }
 
-.btn-group .btn.btn-secondary:first-child {
-  background-color: #1c6185; }
+.btn-group {
+  border-radius: 10px; }
+  .btn-group .btn.btn-secondary:first-child {
+    background-color: #1c6185;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px; }
+  .btn-group .btn.btn-secondary {
+    background-color: #247fae;
+    opacity: 0.8;
+    border: none; }
+  .btn-group .btn.btn-secondary:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px; }
 
-.btn-group .btn.btn-secondary {
-  background-color: #247fae;
-  opacity: 0.8;
-  border: none; }
+@media screen and (min-width: 992px) {
+  a:not([href]):not([tabindex]) {
+    font-size: 24px; }
+  .form-inline .form-control {
+    font-size: 14.2px;
+    width: 309px; } }
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  a:not([href]):not([tabindex]) {
+    font-size: 16px; }
+  .navbar-brand {
+    margin-right: 15px; }
+  .form-inline .form-control {
+    font-size: 13px;
+    width: 250px; } }
+
+@media screen and (max-width: 768px) {
+  a:not([href]):not([tabindex]) {
+    display: none; }
+  .navbar-brand {
+    margin-right: 0; } }
+
+@media screen and (max-width: 576px) {
+  .form-inline .form-control {
+    display: none; } }
