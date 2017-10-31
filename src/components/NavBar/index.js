@@ -7,9 +7,10 @@ import menu from '../../hamburger.png';
 class NavBar extends Component {
     render() {
       return (
-            <nav class="navbar-top navbar navbar-expand-lg sticky-top navbar-dark">
+            <nav class="navbar-top navbar navbar-expand-lg sticky-top navbar-dark align-middle">
               <a class="navbar-brand" href="#">
-                <img src={logo} alt="logo"/>
+                <img src={logo} alt="logo" height="40px" width="31px" class="d-inline-block"/>
+                <span class="brand">SecureCo</span>
               </a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>

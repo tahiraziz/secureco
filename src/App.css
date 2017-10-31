@@ -2,3 +2,11 @@
   width: 100%;
   padding-left: 40px;
   padding-right: 40px; }
+  @media screen and (max-width: 768px) {
+    .App .navbar {
+      padding-left: 25px;
+      padding-right: 25px; } }
+  @media screen and (max-width: 568px) {
+    .App .navbar {
+      padding-left: 15px;
+      padding-right: 15px; } }
