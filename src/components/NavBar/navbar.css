@@ -22,6 +22,8 @@
     margin-right: 20px; } }
 
 @media screen and (max-width: 992px) {
+  .navbar {
+    padding: 9px 40px; }
   .navbar-expand-lg .navbar-nav .nav-link {
     background: #231f20; }
   .navbar-expand-lg .navbar-nav .nav-link.toolbox {
@@ -30,10 +32,12 @@
     max-width: 200px; }
   .dropdown-toggle {
     padding-bottom: 0; }
+  .nav-item {
+    max-width: 400px;
+    margin: 0 auto; }
   .nav-item:not(:first-of-type) {
     padding-top: 10px; }
   .dropdown-menu {
-    width: inherit;
     text-align: center;
     background: #231f20; }
   .dropdown-item {

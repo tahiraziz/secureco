@@ -2,23 +2,9 @@ import React, { Component } from 'react';
 import './navbar.css';
 import logo from '../../secureco.png';
 import menu from '../../hamburger.png';
-// import { Nav, NavItem, NavDropdown, DropdownItem, DropdownToggle, DropdownMenu, NavLink } from 'reactstrap';
 
 
 class NavBar extends Component {
-  // constructor(props) {
-  //   super(props);
-
-  //   this.toggle = this.toggle.bind(this);
-  //   this.state = {
-  //     dropdownOpen: false
-  //   };
-  // }
-  // toggle() {
-  //   this.setState({
-  //     dropdownOpen: !this.state.dropdownOpen
-  //   });
-  // }
     render() {
       return (
             <nav class="navbar navbar-expand-lg sticky-top navbar-dark">
@@ -43,7 +29,7 @@ class NavBar extends Component {
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Assessement
+                      Assessements
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                       <a class="dropdown-item" href="#">Action</a>
@@ -65,7 +51,7 @@ class NavBar extends Component {
                     <a class="nav-link dropdown-toggle active toolbox" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       Toolbox
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                       <a class="dropdown-item" href="#">Action</a>
                       <a class="dropdown-item" href="#">Another action</a>
                       <a class="dropdown-item" href="#">Something else here</a>
