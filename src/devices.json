@@ -1,0 +1,82 @@
+[
+    {
+        "deviceName": "FW01CC01",
+        "change": "orange",
+        "retreival": "orange",
+        "log": "yellow",
+        "dateOfChange": "8/28/2013",
+        "typeOfChange": "ADD, MODIFY",
+        "ruleCount": 6784,
+        "removableRuleCount": 218
+    },
+    {
+        "deviceName": "ESD-CORE-6513-A",
+        "change": "yellow",
+        "retreival": "yellow",
+        "log": "orange",
+        "dateOfChange": "8/28/2013",
+        "typeOfChange": "ADD, MODIFY",
+        "ruleCount": 2512,
+        "removableRuleCount": 115
+    },
+    {
+        "deviceName": "MSF-FDR-CMA",
+        "change": "yellow",
+        "retreival": "yellow",
+        "log": "yellow",
+        "dateOfChange": "8/28/2013",
+        "typeOfChange": "MODIFY, DELETE",
+        "ruleCount": 2407,
+        "removableRuleCount": 80
+    },
+    {
+        "deviceName": "pdcdevfw",
+        "change": "green",
+        "retreival": "orange",
+        "log": "orange",
+        "dateOfChange": "8/28/2013",
+        "typeOfChange": "MODIFY",
+        "ruleCount": 2057,
+        "removableRuleCount": 15
+    },
+    {
+        "deviceName": "vhdc-fw-01",
+        "change": "green",
+        "retreival": "orange",
+        "log": "orange",
+        "dateOfChange": "8/28/2013",
+        "typeOfChange": "DELETE",
+        "ruleCount": 1617,
+        "removableRuleCount": 5
+    },
+    {
+        "deviceName": "PHSA-ENG",
+        "change": "green",
+        "retreival": "orange",
+        "log": "orange",
+        "dateOfChange": "8/28/2013",
+        "typeOfChange": "DELETE",
+        "ruleCount": 977,
+        "removableRuleCount": 18
+    },
+    {
+        "deviceName": "SYMMSS-FW-1027741",
+        "change": "yellow",
+        "retreival": "yellow",
+        "log": "orange",
+        "dateOfChange": "8/28/2013",
+        "typeOfChange": "ADD, MODIFY",
+        "ruleCount": 848,
+        "removableRuleCount": 352
+    },
+    {
+        "deviceName": "LEGACY-IT-FW",
+        "change": "yellow",
+        "retreival": "yellow",
+        "log": "orange",
+        "dateOfChange": "8/28/2013",
+        "typeOfChange": "ADD",
+        "ruleCount": 655,
+        "removableRuleCount": 253
+    }
+]

@@ -46,3 +46,14 @@
 
 .thead-light tr th {
   border-top: none; }
+
+.color-table .circle {
+  height: 10px;
+  width: 10px;
+  border-radius: 100%; }
+  .color-table .circle.orange {
+    background: #F57E4D; }
+  .color-table .circle.yellow {
+    background: #FDE63E; }
+  .color-table .circle.green {
+    background: #60C88F; }
