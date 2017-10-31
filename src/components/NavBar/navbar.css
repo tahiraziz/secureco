@@ -30,17 +30,17 @@
     background: #231f20; }
   .navbar-expand-lg .navbar-nav .nav-link.toolbox {
     color: #cb6508; }
-  .dropwdown {
-    max-width: 200px; }
-  .dropdown-toggle {
-    padding-bottom: 0; }
-  .nav-item {
-    max-width: 400px;
-    margin: 0 auto; }
-  .nav-item:not(:first-of-type) {
+  .dropdown-menu {
+    margin: 0; }
+  .nav-item.dropdown {
+    text-align: center; }
+  .nav-pills .nav-link {
+    border-radius: 0; }
+  .nav-link .dropdown-toggle {
     padding-top: 10px; }
   .dropdown-menu {
     text-align: center;
-    background: #231f20; }
+    background: #231f20;
+    border-radius: 0; }
   .dropdown-item {
     color: white; } }
