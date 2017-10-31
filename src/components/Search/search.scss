@@ -1,0 +1,43 @@
+.search {
+    height: 60px;
+    background-color: #2296d1;
+    z-index: 2;
+}
+.navbar-brand {
+    margin-right: 30px;
+}
+a:not([href]):not([tabindex]) {
+    font-size: 24px;
+    color: white;
+}
+.search.navbar {
+    justify-content: flex-start;
+}
+.form-inline {
+    .form-control {
+        font-size: 14.2px;
+        height: 40px;
+        width: 309px;
+        color: #8b8b8b;
+        border-radius: 10px;        
+    }
+    .btn-outline-success {
+        background-color: #247fae;
+        opacity: 0.8;
+        color: white;
+        border: none;
+        height: 40px;
+        border-radius: 10px;
+        cursor: pointer;       
+    }
+}
+.btn-group {
+    .btn.btn-secondary:first-child {
+        background-color: #1c6185;
+    }
+    .btn.btn-secondary {
+        background-color: #247fae;
+        opacity: 0.8;
+        border: none;
+    }
+}

@@ -1,7 +1,7 @@
-.navbar {
+.navbar-top {
   background-color: #231f20;
-  width: 100%;
-  padding: 18px 40px; }
+  height: 80px;
+  z-index: 100; }
 
 .navbar-expand-lg .navbar-nav .nav-link, .dropdown-item {
   font-size: 14px; }
@@ -14,6 +14,8 @@
     padding-left: 28px;
     padding-right: 28px;
     background-color: #464646; }
+  .nav-pills .nav-link {
+    border-radius: 5px; }
   .navbar-expand-lg .navbar-nav .nav-link.toolbox {
     background-color: none;
     background-image: linear-gradient(to top, #cb6508, #cb6508, #cb6508), linear-gradient(#f58f31, #f58f31);

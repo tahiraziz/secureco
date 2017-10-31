@@ -7,7 +7,7 @@ import menu from '../../hamburger.png';
 class NavBar extends Component {
     render() {
       return (
-            <nav class="navbar navbar-expand-lg sticky-top navbar-dark">
+            <nav class="navbar-top navbar navbar-expand-lg sticky-top navbar-dark">
               <a class="navbar-brand" href="#">
                 <img src={logo} alt="logo"/>
               </a>

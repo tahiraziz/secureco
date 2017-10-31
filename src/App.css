@@ -1,5 +1,4 @@
-.App {
-  text-align: center;
-  display: flex;
-  flex-direction: row;
-  align-items: center; }
+.App .navbar {
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 40px; }
