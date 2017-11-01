@@ -1,15 +1,17 @@
+@import '../../styles/variables.scss';
+
 .search {
     height: 60px;
-    background-color: #2296d1;
+    background-color: $color--blue__baby;
     z-index: 2;
     width: 100%;
-    box-shadow: 0 2px 1px 1px rgba(#b7b7b7, 0.7);
+    box-shadow: $box--shadow__border;
 }
 .navbar-brand {
     margin-right: 30px;
 }
 a:not([href]):not([tabindex]) {
-    color: white;
+    color: $color--white;
 }
 .search.navbar {
     display: flex;
@@ -30,26 +32,25 @@ a:not([href]):not([tabindex]) {
         background-color: #e1e1e1;           
     }
     .btn-outline-success {
-        
         height: 40px;
         border-radius: 10px;
         cursor: pointer;       
     }
 }
 .btn {
-    background-color: #247fae;
+    background-color: $color--blue__medium;
     opacity: 0.8;
-    color: white;
+    color: $color--white;
     border: none;
     cursor: pointer;
     &:hover {
-        background-color: #1c6185;            
+        background-color: $color--blue__dark;            
     }
 }
 .btn-group {
     border-radius: 10px;
     .btn.btn-secondary:first-of-type {
-        background-color: #1c6185;
+        background-color: $color--blue--dark;
         border-bottom-left-radius: 10px;
         border-top-left-radius: 10px;
     }

@@ -1,3 +1,7 @@
+/*Colors*/
+/*Shadows*/
+/*Gradients*/
+/*Data*/
 .search {
   height: 60px;
   background-color: #2296d1;
@@ -9,7 +13,7 @@
   margin-right: 30px; }
 
 a:not([href]):not([tabindex]) {
-  color: white; }
+  color: #ffffff; }
 
 .search.navbar {
   display: flex;
@@ -34,9 +38,9 @@ a:not([href]):not([tabindex]) {
   cursor: pointer; }
 
 .btn {
-  background-color: #247fae;
+  background-color: rgba(36, 127, 174, 0.8);
   opacity: 0.8;
-  color: white;
+  color: #ffffff;
   border: none;
   cursor: pointer; }
   .btn:hover {

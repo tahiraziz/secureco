@@ -1,0 +1,22 @@
+/*Colors*/
+$color--orange__brand: #cb6508;
+$color--white: #ffffff;
+$color--black__global: #231f20;
+$color--grey__light: #f5f5f5;
+$color--blue__sky: rgba($color: #43aadc, $alpha: 0.1);
+$color--blue__baby:  #2296d1;
+$color--blue__medium: rgba($color: #247fae, $alpha: 0.8);
+$color--blue__dark: #1c6185;
+$color--blue__link: #44aadd;
+
+/*Shadows*/
+$box--shadow__border: 0 2px 1px 1px rgba(#b7b7b7, 0.7);
+$box--shadw__inset: inset 0px 1px 0 0 rgba(255, 255, 255, 0.4);
+
+/*Gradients*/
+$gradient--brand__primary: linear-gradient(to top, #cb6508, #cb6508, #cb6508), linear-gradient(#f58f31, #f58f31);
+
+/*Data*/
+$data--orange:#F57E4D;
+$data--yellow: #FDE63E;
+$data--green: #60C88F;
