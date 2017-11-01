@@ -25,6 +25,7 @@ class Main extends Component {
                     <BarGraph/>
                     <LineGraph/>
                 </div>
+                 {/* Would have liked to dyanmically generate the tables, but ran out of time */}
                 <div class="device-tables">
                     <div class="text-table color-table">
                         <Header title="Devices Needing Attention" viewAll={true}/>
