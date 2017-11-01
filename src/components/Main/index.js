@@ -1,11 +1,10 @@
 import React, { Component } from 'react';
 import './main.css';
 import Header from '../Header';
-import TextTable from '../TextTable';
-import ColorTable from '../ColorTable';
 import BarGraph from '../BarGraph';
 import LineGraph from '../LineGraph';
 import devices from '../../data/devices.json';
+
 
 class Main extends Component {
     makeCircle = (color) => {
@@ -27,9 +26,6 @@ class Main extends Component {
                     <LineGraph/>
                 </div>
                 <div class="device-tables">
-                    {/* <ColorTable title="Devices Needing Attention" data={this.state.deviceInfo.slice(0,4)}/>
-                    <TextTable title="Recently Changed Devices"/>
-                    <TextTable title="Devices by Rule Count"/> */}
                     <div class="text-table color-table">
                         <Header title="Devices Needing Attention" viewAll={true}/>
                         <table class="table table-responsive">
