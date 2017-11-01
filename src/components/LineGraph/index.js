@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './linegraph.css';
 import Header from '../Header';
-import data from '../../scoring.json';
+import data from '../../data/scoring.json';
 import {LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer} from 'recharts';
 
 

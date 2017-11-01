@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './bargraph.css';
 import Header from '../Header';
-import data from '../../controlfailures.json';
+import data from '../../data/controlfailures.json';
 import {BarChart, Bar, XAxis, YAxis, CartesianGrid, Legend, ResponsiveContainer} from 'recharts';
 
 

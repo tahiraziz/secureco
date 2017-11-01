@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './navbar.css';
 import logo from '../../secureco.png';
-import menu from '../../hamburger.png';
 
 
 class NavBar extends Component {
@@ -14,7 +13,6 @@ class NavBar extends Component {
               </a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-                {/* <img src={menu} alt="menu" height="20px" width="auto"/> */}
               </button>
               <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav nav-pills">

@@ -30,31 +30,34 @@ a:not([href]):not([tabindex]) {
         background-color: #e1e1e1;           
     }
     .btn-outline-success {
-        background-color: #247fae;
-        opacity: 0.8;
-        color: white;
-        border: none;
+        
         height: 40px;
         border-radius: 10px;
         cursor: pointer;       
     }
 }
+.btn {
+    background-color: #247fae;
+    opacity: 0.8;
+    color: white;
+    border: none;
+    cursor: pointer;
+    &:hover {
+        background-color: #1c6185;            
+    }
+}
 .btn-group {
     border-radius: 10px;
-    .btn.btn-secondary:first-child {
+    .btn.btn-secondary:first-of-type {
         background-color: #1c6185;
         border-bottom-left-radius: 10px;
         border-top-left-radius: 10px;
-    }
-    .btn.btn-secondary {
-        background-color: #247fae;
-        opacity: 0.8;
-        border: none;
     }
     .btn.btn-secondary:last-child {
         border-top-right-radius: 10px;
         border-bottom-right-radius: 10px;
     }
+
 }
 @media screen and (min-width: 992px) {
     a:not([href]):not([tabindex]) {

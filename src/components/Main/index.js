@@ -5,7 +5,7 @@ import TextTable from '../TextTable';
 import ColorTable from '../ColorTable';
 import BarGraph from '../BarGraph';
 import LineGraph from '../LineGraph';
-import devices from '../../devices.json';
+import devices from '../../data/devices.json';
 
 class Main extends Component {
     makeCircle = (color) => {
