@@ -2,7 +2,8 @@
   height: 60px;
   background-color: #2296d1;
   z-index: 2;
-  width: 100%; }
+  width: 100%;
+  box-shadow: 0 2px 1px 1px rgba(183, 183, 183, 0.7); }
 
 .navbar-brand {
   margin-right: 30px; }

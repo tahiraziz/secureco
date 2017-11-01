@@ -68,7 +68,7 @@
         text-align: center;
     }
     &.color-table {
-        .thead-light tr th {
+        .thead-light tr th:not(:first-of-type) {
             text-align: center;
         }
         .table td div {

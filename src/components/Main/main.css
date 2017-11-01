@@ -59,7 +59,7 @@
 .text-table .table td:nth-child(2) {
   text-align: center; }
 
-.text-table.color-table .thead-light tr th {
+.text-table.color-table .thead-light tr th:not(:first-of-type) {
   text-align: center; }
 
 .text-table.color-table .table td div {
