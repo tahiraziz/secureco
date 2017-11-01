@@ -6,7 +6,7 @@ import logo from '../../secureco.png';
 class NavBar extends Component {
     render() {
       return (
-            <nav class="navbar-top navbar navbar-expand-lg sticky-top navbar-dark align-middle">
+            <nav class="navbar-top navbar navbar-expand-lg navbar-dark align-middle">
               <a class="navbar-brand" href="#">
                 <img src={logo} alt="logo" height="40px" width="31px" class="d-inline-block"/>
                 <span class="brand">SecureCo</span>

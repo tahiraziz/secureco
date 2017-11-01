@@ -8,7 +8,7 @@ import tree from '../../icons/flow-tree.svg';
 class Search extends Component {
     render() {
         return(
-            <nav class="search navbar sticky-top">
+            <nav class="search navbar">
                 <div class="searchbar">
                     <a class="navbar-brand">Enterprise Domain Name</a>
                     <form class="form-inline">

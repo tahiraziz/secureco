@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './linegraph.css';
 import Header from '../Header';
 import data from '../../data/scoring.json';
-import {LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer} from 'recharts';
+import {LineChart, Line, XAxis, YAxis, CartesianGrid, Legend, ResponsiveContainer} from 'recharts';
 
 
 class LineGraph extends Component {

@@ -52,6 +52,23 @@
         }
     }
 }
+.color-table {
+    .circle {
+        height: 10px;
+        width: 10px;
+        border-radius: 100%;
+        &.orange {
+            background: #F57E4D;
+        }
+        &.yellow {
+            background: #FDE63E;            
+        }
+        &.green {
+            background: #60C88F;            
+        }
+    }
+}
+/*Overriding Boostrap table styles*/
 .table-responsive {
     @media screen and (max-width: 991px) {
         display: table;
@@ -94,22 +111,6 @@
         .table td div {
             text-align: center;
             margin: 0 auto;
-        }
-    }
-}
-.color-table {
-    .circle {
-        height: 10px;
-        width: 10px;
-        border-radius: 100%;
-        &.orange {
-            background: #F57E4D;
-        }
-        &.yellow {
-            background: #FDE63E;            
-        }
-        &.green {
-            background: #60C88F;            
         }
     }
 }

@@ -9,8 +9,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-          <NavBar/>
-          <Search/>
+          <div class="sticky-top">
+            <NavBar/>
+            <Search/>
+          </div>
           <Main/>
       </div>
     );
