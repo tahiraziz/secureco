@@ -54,6 +54,29 @@
 .thead-light tr th{
     border-top: none;
 }
+.text-table {
+    .thead-light tr th:last-of-type {
+        text-align: right;
+    }
+    .table td:last-of-type {
+        text-align: right;
+    }
+    .thead-light tr th:nth-child(2) {
+        text-align: center;
+    }
+    .table td:nth-child(2) {
+        text-align: center;
+    }
+    &.color-table {
+        .thead-light tr th {
+            text-align: center;
+        }
+        .table td div {
+            text-align: center;
+            margin: 0 auto;
+        }
+    }
+}
 .color-table {
     .circle {
         height: 10px;

@@ -47,6 +47,25 @@
 .thead-light tr th {
   border-top: none; }
 
+.text-table .thead-light tr th:last-of-type {
+  text-align: right; }
+
+.text-table .table td:last-of-type {
+  text-align: right; }
+
+.text-table .thead-light tr th:nth-child(2) {
+  text-align: center; }
+
+.text-table .table td:nth-child(2) {
+  text-align: center; }
+
+.text-table.color-table .thead-light tr th {
+  text-align: center; }
+
+.text-table.color-table .table td div {
+  text-align: center;
+  margin: 0 auto; }
+
 .color-table .circle {
   height: 10px;
   width: 10px;

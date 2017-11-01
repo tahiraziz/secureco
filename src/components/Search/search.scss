@@ -88,6 +88,9 @@ a:not([href]):not([tabindex]) {
     .navbar-brand {
         margin-right: 0;
     }
+    .search {
+        height: 50px;
+    }
 }
 @media screen and (max-width: 576px)  {
     .form-inline {
