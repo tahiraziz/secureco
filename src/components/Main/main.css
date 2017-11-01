@@ -6,6 +6,24 @@
   .main {
     margin-top: 15px; } }
 
+.graphs {
+  width: 100%; }
+  @media screen and (min-width: 992px) {
+    .graphs {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-bottom: 60px; }
+      .graphs .bargraph:first-of-type {
+        padding-right: 40px; } }
+  @media screen and (max-width: 991px) {
+    .graphs {
+      flex-direction: column;
+      justify-content: flex-start;
+      margin-bottom: 0; }
+      .graphs .bargraph {
+        margin-bottom: 35px; } }
+
 .device-tables {
   width: 100%; }
   @media screen and (min-width: 1200px) {

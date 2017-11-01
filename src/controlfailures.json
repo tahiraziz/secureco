@@ -1,0 +1,37 @@
+[
+    {
+        "deviceName": "DST",
+        "low": 2,
+        "medium": 0,
+        "high": 0,
+        "critical": 0
+    },
+    {
+        "deviceName": "SSG20_Internal",
+        "low": 3,
+        "medium": 4,
+        "high": 1,
+        "critical": 4
+    },
+    {
+        "deviceName": "CustFW1",
+        "low": 3,
+        "medium": 2,
+        "high": 0,
+        "critical": 1
+    },
+    {
+        "deviceName": "DD-MGMT_Management_Server",
+        "low": 4,
+        "medium": 1,
+        "high": 1,
+        "critical": 1
+    },
+    {
+        "deviceName": "MSF-FDR-CMA",
+        "low": 4,
+        "mediun": 0,
+        "high": 1,
+        "critical": 1
+    }
+]

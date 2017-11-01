@@ -3,6 +3,7 @@ import './main.css';
 import Header from '../Header';
 import TextTable from '../TextTable';
 import ColorTable from '../ColorTable';
+import BarGraph from '../BarGraph';
 import devices from '../../devices.json';
 
 class Main extends Component {
@@ -21,7 +22,8 @@ class Main extends Component {
         return(
             <div class="main">
                 <div class="graphs">
-                    
+                    <BarGraph/>
+                    <BarGraph/>
                 </div>
                 <div class="device-tables">
                     {/* <ColorTable title="Devices Needing Attention" data={this.state.deviceInfo.slice(0,4)}/>
